@@ -1,0 +1,42 @@
+print("------------MENU--------------")
+print("[1]bahasa ")
+print("[2]matematika")
+print("--------------------------------------")
+pilih = input("Masukan Pilhan anda: ")
+print(" ")
+if pilih == "1":
+    kuis1 = "1. majas personifikasi adalah... "
+    jawaban1 = "a. Majas memanusiakan\nb. Majas melebih lebihkan\nc. majas nada tinggi\nd. Majas sedih"
+    print(kuis1)
+    print(jawaban1)
+    hasil = 10
+    respon = input("Masukan jawaban anda a, b, c, d : ")
+    if respon == "a":
+        stop = True
+    else:
+        respon = "b"
+        respon = "c"
+        respon = "d"
+        hasil = 0
+
+    kuis2 = "\n2. penulis puisi disebut... "
+    jawaban2 = "a. badut\nb. writer\nc. penyair\nd. vokalis"
+    print(kuis2)
+    print(jawaban2)
+    hasil2 = 10
+
+    respon2 = input("Masukan Jawaban anda a, b, c, d : ")
+
+    if respon2 == "c":
+        stop = True
+    else:
+        respon2 = "a"
+        respon2 = "b"
+        respon2 = "d"
+        hasil2 = 0
+    if (respon, respon2):
+        stop = True
+        print("Total Point anda adalah: ", hasil + hasil2)
+    else:
+        print(hasil + hasil2)
+    
