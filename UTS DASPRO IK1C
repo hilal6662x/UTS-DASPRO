@@ -39,4 +39,38 @@ if pilih == "1":
         print("Total Point anda adalah: ", hasil + hasil2)
     else:
         print(hasil + hasil2)
-    
+ elif pilih == "2":
+    soal = "1. 1000+999+1+3+4x0"
+    jawab = "a. 2003\nb. 2000\nc. 0\nd. 2004"
+    print(soal)
+    print(jawab)
+    point = 10
+
+    res = input("Masukan Jawaban anda a, b, c, d : ")
+    if res == "a":
+        stop = True
+    else:
+        res = "b"
+        res = "c"
+        res = "d"
+        point = 0
+
+    soal2 = "matematika ilmu yang?... "
+    jawab2 = "a. susah\nb. mudah\nc. Menyenangkan\nd. ruwet"
+    print(soal2)
+    print(jawab2)
+    point2 = 10
+
+    res2 = input("Masukan Jawaban anda a, b, c, d : ")
+    if res2 == "c":
+        stop = True
+    else:
+        res2 = "a"
+        res2 = "b"
+        res2 = "d"
+        point2 = 0
+if (res, res2):
+    stop = True
+    print("Total Point anda adalah : ", point + point2)
+else:
+    print(point + point2)
